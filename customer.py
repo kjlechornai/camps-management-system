@@ -12,7 +12,7 @@ class CustWin:
         lbl_title.place(x=0, y=0, width=1120, height=40)
 
         # ==================LOGO=============================================
-        # img1 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\logo.jpg")
+        # img1 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\images\logo.jpg")
         # img1.resize((200, 40), Image.ANTIALIAS)
         # self.photoImg1 = ImageTk.PhotoImage(img1)
 
