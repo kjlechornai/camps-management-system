@@ -8,14 +8,14 @@ class VillageManagementSystem:
         self.root.title("Village Management System")
         self.root.geometry("1350x750+0+0")
 
-        img1 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\hotel.jpeg")
+        img1 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\images\hotel.jpeg")
         img1.resize((1350, 130), Image.ANTIALIAS)
         self.photoImg1 = ImageTk.PhotoImage(img1)
 
         lblimg = Label(self.root, image=self.photoImg1, bd=4, relief=RIDGE)
         lblimg.place(x=0, y=0, width=1350, height=130)
         # ==================LOGO=============================================
-        img2 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\logo.jpg")
+        img2 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\images\logo.jpg")
         img2.resize((230, 130), Image.ANTIALIAS)
         self.photoImg2 = ImageTk.PhotoImage(img2)
 
@@ -52,7 +52,7 @@ class VillageManagementSystem:
         logout.grid(row=4, column=0, pady=1)
 
         # ==================RIGHT SIDE IMAGE=============================================
-        img3 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\room1.jpg")
+        img3 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\images\room1.jpg")
         img3.resize((1120, 550), Image.ANTIALIAS)
         self.photoImg3 = ImageTk.PhotoImage(img3)
 
@@ -60,14 +60,14 @@ class VillageManagementSystem:
         lblimg3.place(x=225, y=0, width=1120, height=550)
 
         # ==================BOTTOM IMAGES=============================================
-        img4 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\room.jpg")
+        img4 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\images\room.jpg")
         img4.resize((230, 180), Image.ANTIALIAS)
         self.photoimg4 = ImageTk.PhotoImage(img4)
 
         lblimg4 = Label(main_frame, image=self.photoimg4, bd=4, relief=RIDGE)
         lblimg4.place(x=0, y=190, width=230, height=180)
 
-        img5 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\room.jpg")
+        img5 = Image.open(r"C:\Users\Kizito\OneDrive - Millenium Information Systems\Desktop\camps\images\room.jpg")
         img5.resize((1120, 560), Image.ANTIALIAS)
         self.photoimg5 = ImageTk.PhotoImage(img5)
 
